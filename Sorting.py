@@ -19,9 +19,16 @@ Description:
     algorithms.
 """
 
-def insertionSort(self, parameter_list):
+def insertionSort(array):
     # TODO: Implement Insertion Sort
-    pass
+    for iteration in range(0, len(array)):
+        element = array[iteration]
+        # Insert value in "element" into the sorted list array  
+        insertIter = iteration - 1
+        while insertIter >= 0 and array[insertIter] > element:
+            array[insertIter+1] = array[insertIter]
+            insertIter -= 1
+        array[insertIter+1] = element
 
 def mergeSort(self, parameter_list):
     # TODO: Implement Merge Sort
