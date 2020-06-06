@@ -23,29 +23,29 @@ def insertionSort(self, parameter_list):
     pass
 
 def mergeSort(self, parameter_list):
-    # TODO: Implement Insertion Sort
+    # TODO: Implement Merge Sort
     pass
 
 def heapSort(self, parameter_list):
-    # TODO: Implement Insertion Sort
+    # TODO: Implement Heap Sort
     pass
 
 def quickSort(self, parameter_list):
-    # TODO: Implement Insertion Sort
+    # TODO: Implement Quick Sort
     pass
 
 def bubbleSort(self, parameter_list):
-    # TODO: Implement Insertion Sort
+    # TODO: Implement Bubble Sort
     pass
 
 def countingSort(self, parameter_list):
-    # TODO: Implement Insertion Sort
+    # TODO: Implement Counting Sort
     pass
 
 def radixSort(self, parameter_list):
-    # TODO: Implement Insertion Sort
+    # TODO: Implement Radix Sort
     pass
 
 def bucketSort(self, parameter_list):
-    # TODO: Implement Insertion Sort
+    # TODO: Implement Bucket Sort
     pass
