@@ -1,9 +1,9 @@
 # Algorithms
 ## Sorting Algorithms
-> 1. Insertion sort
+### 1. Insertion sort
 
         Worst-Case Run-Time: O(n^2)
-        
+
         Best-Case Run-Time: O(n)
 > 2. Merge Sort
 > 3. Heap Sort
