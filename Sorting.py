@@ -14,8 +14,9 @@ Description:
         6. Counting Sort
         7. Radix Sort
         8. Bucket Sort
+        9. Topological Sort
     Check out the README.md file for more information regarding the sorting
-    algorithm.
+    algorithms.
 """
 
 def insertionSort(self, parameter_list):
@@ -48,4 +49,8 @@ def radixSort(self, parameter_list):
 
 def bucketSort(self, parameter_list):
     # TODO: Implement Bucket Sort
+    pass
+
+def topoSort(self, parameter_list):
+    # TODO: Implement Topological Sort
     pass
