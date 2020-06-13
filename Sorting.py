@@ -30,34 +30,67 @@ def insertionSort(array):
             insertIter -= 1
         array[insertIter+1] = element
 
-def mergeSort(self, parameter_list):
+def mergeSort(array):
     # TODO: Implement Merge Sort
-    pass
+    if len(array) > 1:
+        # Create a midpoint value
+        midpoint = len(array) // 2
 
-def heapSort(self, parameter_list):
+        # Create the left and right subarrays
+        left = array[:midpoint]
+        right = array[midpoint:]
+
+        # Call the mergeSort recusively on the left and right arrays
+        mergeSort(left)
+        mergeSort(right)
+
+        i = j = k = 0
+          
+        # Copy data to temp arrays L[] and R[] 
+        while i < len(left) and j < len(right): 
+            if left[i] < right[j]: 
+                array[k] = left[i] 
+                i+= 1
+            else: 
+                array[k] = right[j] 
+                j+= 1
+            k+= 1
+          
+        # Checking if any element was left 
+        while i < len(left): 
+            array[k] = left[i] 
+            i+= 1
+            k+= 1
+          
+        while j < len(right): 
+            array[k] = right[j] 
+            j+= 1
+            k+= 1
+
+def heapSort(array):
     # TODO: Implement Heap Sort
     pass
 
-def quickSort(self, parameter_list):
+def quickSort(array):
     # TODO: Implement Quick Sort
     pass
 
-def bubbleSort(self, parameter_list):
+def bubbleSort(array):
     # TODO: Implement Bubble Sort
     pass
 
-def countingSort(self, parameter_list):
+def countingSort(array):
     # TODO: Implement Counting Sort
     pass
 
-def radixSort(self, parameter_list):
+def radixSort(array):
     # TODO: Implement Radix Sort
     pass
 
-def bucketSort(self, parameter_list):
+def bucketSort(array):
     # TODO: Implement Bucket Sort
     pass
 
-def topoSort(self, parameter_list):
+def topoSort(array):
     # TODO: Implement Topological Sort
     pass
